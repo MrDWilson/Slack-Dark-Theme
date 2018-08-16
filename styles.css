@@ -1,11 +1,10 @@
 :root {
     /* Modify these to change your theme colors: */
-    primary: #61AFEF;
-    text: #ABB2BF;
-    background: #282C34;
-    background-elevated: #3B4048;
+    --primary: #61AFEF;
+    --text: #ABB2BF;
+    --background: #282C34;
+    --background-elevated: #3B4048;
   }
-
   pre.special_formatting
   {
     background-color: #282C34 !important;
@@ -13,13 +12,11 @@
     border: solid;
     border-width: 1px !important;		
   }
-
   #im_browser .im_browser_row,
   .c-message_list__day_divider__line  
   { 
     border-top: 1px solid #afafaf;
   }
-
   div.c-message.c-message--light.c-message--hover,
   #file_preview_scroller .texty_comment_input,
   .c-message.c-message--light.c-message--hover.c-message--adjacent.c-message--last
@@ -27,7 +24,6 @@
     color: #fff !important;
     background-color: #3B4048 !important;
   }
-
   #file_preview_scroller .message_sender,
   #file_preview_scroller .file_viewer_link,
   #file_preview_scroller .comment_body,
@@ -60,12 +56,10 @@
   {
     color: #afafaf !important;
   }
-
   .c-reaction_add__icon--bg 
   {
     color: #282C34 !important;
   }  
-
   div.c-virtual_list__scroll_container,
   div.c-message:hover,
   .c-file_container,
@@ -81,12 +75,10 @@
   {
     background-color: #282C34 !important;
   }
-
   .c-file__icon:after
   {
     border: 3px solid #282C34;
   } 
-
   .c-button--outline,
   .c-message_attachment__button,
   .c-message_attachment__select,
@@ -98,7 +90,6 @@
     border: 1px solid;
     border-color: #3B4048;
   }
-
   .c-file_container:hover,
   .c-reaction:focus,
   .c-reaction:hover,
@@ -107,35 +98,22 @@
   {
     border-color: #afafaf;
   }
-
   .c-file_container--has_thumb .c-file__actions:before 
   {
     background-image: linear-gradient(90deg,hsla(0,0%,100%,0),#282C34 20px);
   }
-
   .c-member_slug--link
   {
     background: #3B4048;
   }
-
   .c-member_slug--link:hover
   {
     background: #25272a;
   }
-
   .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), 
   .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
       z-index: 0;
   }
-
   .ql-placeholder {
     color: #ffffff !important;
-}
-
- .p-message_pane__foreword__description {
-     color:white !important;
-}
-
- #footer_msgs, .channel_header {
-     background-color: #282C34 !important;
-}
+  }
