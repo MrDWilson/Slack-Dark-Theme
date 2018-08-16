@@ -131,3 +131,7 @@
   .ql-placeholder {
     color: #ffffff !important;
   }
+
+  .c-virtual_list__item {
+      background-color: black !important;
+}
