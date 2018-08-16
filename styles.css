@@ -135,3 +135,7 @@
  .p-message_pane__foreword__description {
      color:white !important;
 }
+
+ #footer_msgs, .channel_header {
+     background-color: #282C34 !important;
+}
