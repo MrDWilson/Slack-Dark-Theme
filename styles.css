@@ -132,3 +132,13 @@
   {
       color: #ABB2BF !important;
   }
+
+  #fs_modal_sidebar button:hover {
+  {
+      color: #c5cddb !important;
+  }
+      
+  #fs_modal_sidebar li.active button {
+      color: #989eaa !important;
+  }
+
