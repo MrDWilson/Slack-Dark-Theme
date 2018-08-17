@@ -126,7 +126,8 @@
   .member_name_and_presence,
   .member_title,
   .current_status_placeholder,
-  .member_data_table td a
+  .member_data_table td,
+  .member_data_table a
   {
       color: #ABB2BF !important;
   }
