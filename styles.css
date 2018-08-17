@@ -127,7 +127,8 @@
   .member_title,
   .current_status_placeholder,
   .member_data_table td,
-  .member_data_table a
+  .member_data_table a,
+  #fs_modal_sidebar button
   {
       color: #ABB2BF !important;
   }
