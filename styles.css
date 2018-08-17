@@ -119,8 +119,10 @@
   }
 
   .p-message_pane__foreword__description, 
-  .c-unified_member__title c-unified_member__title--large, 
-  .c-unified_member__display-name c-unified_member__display-name--large 
+  .c-unified_member__title, 
+  .c-unified_member__title--large, 
+  .c-unified_member__display-name, 
+  .c-unified_member__display-name--large 
   {
       color: #ffffff !important;
   }
