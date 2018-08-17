@@ -122,7 +122,11 @@
   .c-unified_member__title, 
   .c-unified_member__title--large, 
   .c-unified_member__display-name, 
-  .c-unified_member__display-name--large 
+  .c-unified_member__display-name--large,
+  .member_name_and_presence,
+  .member_title,
+  .current_status_placeholder,
+  .member_data_table td
   {
       color: #ABB2BF !important;
   }
